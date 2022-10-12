@@ -7,3 +7,18 @@
 .title{
     color: #FA804C;
 }
+
+/* responsive style */
+/* responsive for table device */
+@media (min-width: 767.9px) and (max-width: 991.9px) {
+    .title-text{
+        font-size: 40px;
+    }
+}
+
+/* responsive for mobile device */
+@media (max-width: 767.9px) {
+    .title-text {
+        font-size: 30px;
+    }
+}
